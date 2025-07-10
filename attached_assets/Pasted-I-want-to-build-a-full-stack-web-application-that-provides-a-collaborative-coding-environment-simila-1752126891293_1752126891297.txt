@@ -1,0 +1,41 @@
+I want to build a full-stack web application that provides a collaborative coding environment similar to tools like Replit, CodePen, or VS Code Live Share. The platform should allow multiple users to write, edit, and execute code in real time, with support for syntax highlighting, live preview/output, and chat or voice integration for communication.
+
+Key features should include:
+
+Real-time collaboration: Multiple users can work on the same code file simultaneously, with changes synced instantly using technologies like WebSockets or WebRTC.
+
+Multi-language support: The application should support popular programming languages like Python, JavaScript, C++, and Java.
+
+Code execution sandbox: Safe, containerized backend environment (like Docker or Firecracker) to compile/run code securely.
+
+User authentication: Secure login and session management using OAuth, JWT, or similar mechanisms.
+
+File/project management: Users should be able to create, save, fork, and delete projects or code snippets.
+
+Version control: Basic versioning system or Git-like integration for tracking changes and collaborating efficiently.
+
+Communication tools: Built-in chat (text/voice) to facilitate collaboration and discussion among team members.
+
+Frontend features: Intuitive UI with a code editor (like Monaco or Ace), draggable panels, and dark/light theme options.
+
+Admin/moderation features: Role-based access, session monitoring, and the ability to kick or mute users if needed.
+
+Tech Stack Suggestion (flexible):
+
+Frontend: React/Next.js with TypeScript and Tailwind CSS
+
+Editor: Monaco Editor (used in VS Code)
+
+Backend: Node.js/Express or Django with WebSocket support
+
+Real-time Communication: Socket.IO or WebRTC
+
+Authentication: Firebase Auth or Auth0
+
+Database: MongoDB or PostgreSQL
+
+Code Execution: Docker-based microservice or third-party API (e.g., Judge0)
+
+Deployment: Docker, Kubernetes (optional), and cloud hosting (AWS/GCP/Vercel)
+
+This application should aim to deliver a seamless experience for users who want to collaboratively code, debug, and deploy small projects or learning exercises in real time.
